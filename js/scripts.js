@@ -6,25 +6,9 @@
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
 
-function clipboard() {
+function clipboard(eleID) {
     // Get the text field
-    var copyText = document.getElementById("copy");
-
-     // Copy the text inside the text field
-    navigator.clipboard.writeText(copyText.value);
-}
-
-function clipboard2() {
-    // Get the text field
-    var copyText = document.getElementById("copy-2");
-
-     // Copy the text inside the text field
-    navigator.clipboard.writeText(copyText.value);
-}
-
-function clipboard3() {
-    // Get the text field
-    var copyText = document.getElementById("copy-3");
+    var copyText = document.getElementById(eleID);
 
      // Copy the text inside the text field
     navigator.clipboard.writeText(copyText.value);
